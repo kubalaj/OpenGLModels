@@ -1,0 +1,6 @@
+ex13:ex13.c
+	gcc -Wall -o ex13 ex13.c -framework GLUT -framework OpenGL
+run:
+	./ex13
+clean:
+	rm ex13
